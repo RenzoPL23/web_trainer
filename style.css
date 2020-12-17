@@ -1,0 +1,255 @@
+:root {
+    --color1: rgb(219, 144, .5);
+    --color2: rgba(217, 220, 223, 0.856);
+    --color3: rgb(255, 255, 255);
+    --color4: rgb(53, 51, 51);
+    --color5: rgb(77, 78, 80);
+
+    --margin: 30px;
+    --space: 10 px;
+    --space-cont: 45px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5)
+}
+
+.nav1 {
+    background: #f2f2f2;
+    height: 80px;
+    color: #fff;
+}
+
+.nav-container {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: inherit;
+    overflow: hidden;
+}
+
+nav .container-btn {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 2px solid var(--color1);
+    color: var(--color1);
+}
+
+nav .container-btn p {
+    background: var(--color1);
+    align-content: center;
+    color: #fff;
+}
+
+.logo,
+.logo img {
+    height: 80px;
+}
+
+.spacework1 {
+    background: var(--color2);
+    width: 100%;
+    height: 700px;
+}
+
+.presentation-box {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.presentation-box>p {
+    width: 30%;
+    margin-top: var(--margin);
+    text-align: center;
+}
+
+.presentation-box>h2 {
+    width: 50%;
+    margin-top: var(--margin);
+    font-weight: 400px;
+}
+
+.presentation-box>h3 {
+    width: 50%;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    font-weight: 400px;
+}
+
+.loadvideo {
+    margin-top: var(--margin);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-btn {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid var(--color1);
+    color: var(--color1);
+}
+
+.container-btn p {
+    background: var(--color1);
+    font-size: 20px;
+    color: #fff;
+}
+
+.spacework2 {
+    background: var(--color3);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.panel-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-presentation {
+    overflow: hidden;
+    width: 100%;
+    left: 1000px;
+}
+
+.text-box {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.title {
+    width: 30%;
+    color: var(--color1);
+}
+
+.text-area {
+    width: 60%;
+}
+.galery{
+    background: var(--color4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.galery-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cont-gym {
+    width: 40%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    height: 300px;
+    overflow: hidden;
+    margin-left: var(--space);
+    margin-bottom: var(--space-cont);
+}
+.list-box{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: justify;
+}
+.img-gym {
+    height: 100%;
+    width: 100%;
+}
+
+.img-gym img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.galery-text{
+    color: #f2f2f2;
+    font-size: 35px;
+    margin: var(--margin);
+}
+
+.list{
+    overflow: hidden;
+    border: 1px solid var(--color5);
+    background: var(--color5);
+    margin: var(--margin);
+    width: 60%;
+}
+
+.points{
+    color: #fff;
+    font-weight: 900px;
+    font-size: 20px;
+    margin: var(--margin);
+}
+.list-box>h2{
+    font-size: 40px;
+}
+
+.galery-box2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
