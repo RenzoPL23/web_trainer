@@ -6,7 +6,8 @@
     --color5: rgb(77, 78, 80);
 
     --margin: 30px;
-    --space: 10 px;
+    --margin-lr: 250px;
+    --space: 20 px;
     --space-cont: 45px;
 }
 
@@ -55,6 +56,7 @@ nav .container-btn {
     text-decoration: none;
     border: 2px solid var(--color1);
     color: var(--color1);
+    
 }
 
 nav .container-btn p {
@@ -123,6 +125,7 @@ nav .container-btn p {
     text-align: center;
     border: 2px solid var(--color1);
     color: var(--color1);
+    border-radius: 15px;
 }
 
 .container-btn p {
@@ -308,18 +311,88 @@ nav .container-btn p {
 .row-offerts {
     display: flex;
     justify-content: space-around;
-    
+
     flex-wrap: initial;
 }
 
 .offert1 {
-    width: 80%;
+    width: 20%;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     overflow: hidden;
     margin: var(--margin);
-    height: 450px;
+    height: 600px;
+}
+.offert2 {
+    width: 20%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    overflow: hidden;
+    margin: var(--margin);
+    height: 600px;
 }
 
 .header {
+    background-color:var(--color2) ;
     height: 30%;
+}
+.header2 {
+    background-color: #13fcae77 ;
+    height: 30%;
+}
+
+.feature {
+    background-color: var(--color1);
+    height: 70%;
+    width: 100%;
+}
+
+.feature2 {
+    background-color:  #fffb18;
+    height: 70%;
+    width: 100%;
+}
+
+.time{
+    font-size: 40px;
+}
+.feature-list{
+    text-align: justify;
+    padding: var(--margin);
+}
+.feature-list>li{
+    margin-bottom: var(--space);
+}
+.btn-offert{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.frequency-questions{
+    align-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--color1);
+    color: #f2f2f2;
+}
+.frequency-questions>h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.question-box{
+    flex-direction: column;
+    margin: var(--margin);
+    margin-right: var(--margin-lr);
+    margin-left: var(--margin-lr);
+
+    text-align: justify;
+}
+.question>h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.question>p{
+    font-size: 24px;
+}
+.bottom-text{
+    margin-right: var(--margin-lr);
+    margin-left: var(--margin-lr);
 }
