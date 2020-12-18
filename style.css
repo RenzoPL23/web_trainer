@@ -71,7 +71,7 @@ nav .container-btn p {
 .spacework1 {
     background: var(--color2);
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 
 .presentation-box {
@@ -116,7 +116,7 @@ nav .container-btn p {
 .container-btn {
     display: inline-block;
     width: 250px;
-    margin-right: 20px;
+    margin: 20px;
     font-size: 17px;
     font-weight: 300;
     text-decoration: none;
@@ -134,7 +134,7 @@ nav .container-btn p {
 .spacework2 {
     background: var(--color3);
     width: 100%;
-    height: 700px;
+    height: 750px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -170,15 +170,18 @@ nav .container-btn p {
 
 }
 
-.title {
+.subtitle {
     width: 30%;
     color: var(--color1);
 }
 
 .text-area {
     width: 60%;
+    text-align: justify;
+
 }
-.galery{
+
+.galery {
     background: var(--color4);
     display: flex;
     justify-content: center;
@@ -203,7 +206,8 @@ nav .container-btn p {
     margin-left: var(--space);
     margin-bottom: var(--space-cont);
 }
-.list-box{
+
+.list-box {
     width: 100%;
     height: 600px;
     display: flex;
@@ -213,6 +217,7 @@ nav .container-btn p {
     overflow: hidden;
     text-align: justify;
 }
+
 .img-gym {
     height: 100%;
     width: 100%;
@@ -223,13 +228,14 @@ nav .container-btn p {
     width: 100%;
     object-fit: cover;
 }
-.galery-text{
+
+.galery-text {
     color: #f2f2f2;
     font-size: 35px;
     margin: var(--margin);
 }
 
-.list{
+.list {
     overflow: hidden;
     border: 1px solid var(--color5);
     background: var(--color5);
@@ -237,13 +243,14 @@ nav .container-btn p {
     width: 60%;
 }
 
-.points{
+.points {
     color: #fff;
     font-weight: 900px;
     font-size: 20px;
     margin: var(--margin);
 }
-.list-box>h2{
+
+.list-box>h2 {
     font-size: 40px;
 }
 
@@ -252,4 +259,67 @@ nav .container-btn p {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.title {
+    width: 40%;
+    margin: var(--margin);
+    text-align: justify;
+}
+
+.about {
+    background-color: #f2f2f2;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.promo {
+    background: var(--color3);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.row-offerts {
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: initial;
+}
+
+.offert1 {
+    width: 80%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    overflow: hidden;
+    margin: var(--margin);
+    height: 450px;
+}
+
+.header {
+    height: 30%;
 }
